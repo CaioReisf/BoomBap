@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Indie+Flower&display=swap');
+
+
 *{
     padding: 0px;
     margin: 0px;
@@ -16,6 +19,8 @@ header{
     justify-content: center;    
     padding: 30px;
     margin-bottom: 20px;        
+    z-index: 1;
+    position: relative;
 }
 
 header ul{
@@ -59,8 +64,7 @@ main{
     display: flex;
     flex-flow: column ;
     justify-content: center;
-    align-items: center;
-    background-color: #050302;
+    align-items: center;    
 }
 
 main .exo{
@@ -73,7 +77,8 @@ main .exo{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);   
-    height: 100vh;      
+    height: 100vh;     
+    z-index: 0; 
 }
 
 main .exo h1{
@@ -96,7 +101,7 @@ main .exo h3{
     background-color:#050302;     
        
     
-    
+    width: 100%;
     margin-top: 48%;
     padding: 20px;
     padding-bottom: 100px;  
@@ -105,18 +110,32 @@ main .exo h3{
 .eiu{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 100px; 
-    width: 100%;   
+    justify-content: center;     
+    width: 100%;
+    margin-top: 40px;  
+    gap: 80px; 
 }
 
-.eiu .lera {    
-   width: 400px;
-                
+.eiu .lera {  
+   
+   color: #4d3f28;         
+   font-family: "Gloria Hallelujah";
       
 }
+
+.eiu .lera p { 
+    font-size: 1.3rem;
+    font-family: "Gloria Hallelujah";
+    line-height: 2.5;
+       
+ }
 
 .eiu .his {    
     width: 500px;
-      
+}
+
+.eiu .his p,h2{    
+    font-family: "Gloria Hallelujah";
+    font-size: 1.3rem;
+    line-height: 1,8;
 }
