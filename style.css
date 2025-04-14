@@ -17,10 +17,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;    
-    padding: 30px;
+    padding: 20px;    
     margin-bottom: 20px;        
     z-index: 1;
-    position: relative;
+    position: relative;  
 }
 
 header ul{
@@ -28,7 +28,7 @@ header ul{
     align-items: center;
     justify-content: center;
     list-style: none;
-    gap: 25px;     
+    gap: 25px;    
             
 }
 
@@ -38,6 +38,10 @@ header ul li a{
     font-family: "Permanent Marker";
     font-size: larger;
     text-transform: lowercase;
+}
+header ul li a:hover{
+    color: #ffbf0f;
+    transition:all ease-in-out 0.2s;       
 }
 
 body{
@@ -57,7 +61,8 @@ body::before {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Deixa mais escuro */
     backdrop-filter: blur(4px); /* Desfoca o fundo */
-    z-index: -1;    
+    z-index: -1;  
+    
 }
 
 main{
@@ -104,7 +109,7 @@ main .exo h3{
     width: 100%;
     margin-top: 48%;
     padding: 20px;
-    padding-bottom: 100px;  
+    padding-bottom: 150px;  
 }
 
 .eiu{
@@ -116,8 +121,7 @@ main .exo h3{
     gap: 80px; 
 }
 
-.eiu .lera {  
-   
+.eiu .lera {     
    color: #4d3f28;         
    font-family: "Gloria Hallelujah";
       
@@ -139,3 +143,36 @@ main .exo h3{
     font-size: 1.3rem;
     line-height: 1,8;
 }
+
+.imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#btnTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 16px;
+    border: none;
+    border-radius: 50%;
+    background-color: #852020;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s, transform 0.3s;
+    z-index: 1000;
+}
+  
+#btnTop:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+  
