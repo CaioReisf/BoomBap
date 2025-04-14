@@ -103,7 +103,8 @@ main .exo h3{
     align-items: center;
     justify-content: space-between;
     color: white;
-    background-color:#050302;     
+    background-color:#050302;    
+     
        
     
     width: 100%;
@@ -126,13 +127,25 @@ main .exo h3{
    font-family: "Gloria Hallelujah";
       
 }
+.eiu #le {     
+    color:white;         
+    font-family: "Gloria Hallelujah";
+       
+}
 
 .eiu .lera p { 
     font-size: 1.3rem;
     font-family: "Gloria Hallelujah";
     line-height: 2.5;
        
- }
+}
+
+.eiu #le p { 
+    font-size: 1.1rem;
+    font-family: "Gloria Hallelujah";
+    line-height: 2;
+       
+}
 
 .eiu .his {    
     width: 500px;
@@ -150,6 +163,28 @@ main .exo h3{
     justify-content: center;
     width: 100%;
 }
+
+
+#s2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color:#050302;  
+    background: black url(imagens/2dec1965-f966-4f44-9345-9484d9c155f3.jpg ) center no-repeat scroll;   
+    background-size: cover;   
+    
+       
+    
+    width: 100%;  
+    margin: 0px;
+    padding-bottom: 150px;  
+}
+
+
+
+
+
 
 #btnTop {
     position: fixed;
