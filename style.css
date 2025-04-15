@@ -12,7 +12,9 @@
     /*font-family: "Permanent Marker";*/ 
     font-family: "Sora", sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 header{
     display: flex;
     align-items: center;
@@ -21,6 +23,7 @@ header{
     margin-bottom: 20px;        
     z-index: 1;
     position: relative;  
+    
 }
 
 header ul{
@@ -212,8 +215,17 @@ main .exo h3{
     align-items: center;
     justify-content: center;
     gap: 20px;
+    margin-top: 30px;
 }
 
+footer{
+    font-family: "Sora", sans-serif;
+    color: #fff;
+    font-weight: bolder;
+    padding: 7px;
+    background-color: #852020;
+    text-align: center;
+}
 
 #btnTop {
     position: fixed;
