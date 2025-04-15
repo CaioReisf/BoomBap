@@ -215,7 +215,7 @@ main .exo h3{
   .slider {
     display: flex;
     gap: 20px;
-    animation: scroll 10s linear infinite;
+    animation: scroll 50s linear infinite;
   }
 
   .slide {
@@ -233,8 +233,8 @@ main .exo h3{
   }
 
   @keyframes scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    0% { transform: translateX(1000); }
+    100% { transform: translateX(-1000%); }
   }
 
 
